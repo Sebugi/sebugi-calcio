@@ -44,7 +44,7 @@ var comps=uniq(M.map(function(m){return m.competizione})).map(function(c){return
 var teams=uniq([].concat.apply([],base.map(function(m){return[nm(m.casa),nm(m.ospite)]}))).sort().map(function(x){return[x,x]});
 var b2=base.filter(function(m){return!st.ft||nm(m.casa)===st.ft||nm(m.ospite)===st.ft});
 var seas=uniq(b2.map(function(m){return m.stagione})).sort().map(function(x){return[x,x]});
-return '<div class="card"><div class="in"><div class="tag">Sebugi Calcio</div><p>'+t("sub")+'</p></div>'+art("serie-a")+'</div>'+
+return '<div class="card"><div class="in"><img src="logo-app.png?v=2" alt="Sebugi" style="height:60px;width:auto;display:block;margin-bottom:8px"><div class="tag">Sebugi Calcio</div><p>'+t("sub")+'</p></div>'+art("serie-a")+'</div>'+
 '<label>'+t("comp")+'</label><select onchange="setF(\'fc\',this.value)">'+opts(comps,st.fc,t("all"))+'</select>'+
 '<label>'+t("team")+'</label><select onchange="setF(\'ft\',this.value)">'+opts(teams,st.ft,t("allt"))+'</select>'+
 '<label>'+t("season")+'</label><select onchange="setF(\'fs\',this.value)">'+opts(seas,st.fs,t("allm"))+'</select>'+
@@ -103,4 +103,4 @@ return chart()+tabs+'<div class="card" style="min-height:0"><div class="in">'+(i
 (n[st.tab]>0?'<button class="btn pri c" onclick="revStart()">'+t("rvgo")+' ('+n[st.tab]+')</button>':'')+'<button class="btn '+(st.confirm?"ko":"")+' c" onclick="clr()">'+(st.confirm?t("sure"):t("clear"))+'</button><button class="btn pri c" onclick="go(\'home\')">'+t("home")+'</button>'}
 function revStart(){var d=load(),it=[];Object.keys(d).forEach(function(k){if(d[k].c!==st.tab)return;var p=k.split("|"),m=M.filter(function(x){return x.id===p[0]})[0];if(m)it.push({m:m,mode:p[1]})});if(!it.length)return;st.queue=shuffle(it);st.rv=true;st.n=0;st.blk=[];st.cpDone=0;st.screen="quiz";next()}
 function clr(){if(!st.confirm){st.confirm=true;render();return}save({});st.confirm=false;render()}
-fetch("data/partite.json?v=1").then(function(r){return r.json()}).then(function(d){M=d.partite;render()}).catch(function(){document.getElementById("app").innerHTML="<p style='padding:20px'>Sebugi Calcio: impossibile caricare i dati.</p>"});
+fetch("data/partite.json?v=2").then(function(r){return r.json()}).then(function(d){M=d.partite;render()}).catch(function(){document.getElementById("app").innerHTML="<p style='padding:20px'>Sebugi Calcio: impossibile caricare i dati.</p>"});
