@@ -54,7 +54,7 @@ return '<div class="card" style="min-height:0"><div class="in"><img src="logo-ap
 function setF(k,v){st[k]=v;if(k==="fc"){st.ft="";st.fs=""}if(k==="ft")st.fs="";render()}
 function setLang(l){lang=l;st.ft="";lsSet("sebugi-calcio-lang",l);render()}
 function go(s){st.screen=s;st.confirm=false;render()}
-function start(m){st.mode=m;var p=pool();if(!p.length){alert2();return}st.bm=m;st.rv=false;st.queue=shuffle(p).map(function(x){return{m:x,mode:m}});st.n=0;st.blk=[];st.cpDone=0;st.screen="quiz";next()}
+function start(m){try{if(window.umami)umami.track("quiz-app-inizio")}catch(e){}st.mode=m;var p=pool();if(!p.length){alert2();return}st.bm=m;st.rv=false;st.queue=shuffle(p).map(function(x){return{m:x,mode:m}});st.n=0;st.blk=[];st.cpDone=0;st.screen="quiz";next()}
 function alert2(){document.getElementById("app").querySelector("main").insertAdjacentHTML("afterbegin",'<div class="card"><div class="in">'+t("none")+'</div></div>')}
 function next(){if(!st.queue.length){if(st.rv){st.rv=false;st.screen="review";render();return}st.queue=shuffle(pool()).map(function(x){return{m:x,mode:st.bm}})}var it=st.queue.pop();st.cur=it.m;st.mode=it.mode;st.rep=false;st.note="";st.answered=false;st.sel=null;
 var m=st.cur;
