@@ -31,8 +31,8 @@ if(l==="it")return '<svg viewBox="0 0 30 30" width="100%" height="100%"><rect wi
 if(l==="de")return '<svg viewBox="0 0 30 30" width="100%" height="100%"><rect width="30" height="10" fill="#222"/><rect y="10" width="30" height="10" fill="#D8312F"/><rect y="20" width="30" height="10" fill="#F2B705"/></svg>';
 return '<svg viewBox="0 0 30 30" width="100%" height="100%"><rect width="30" height="30" fill="#1E3A8A"/><path d="M0 0L30 30M30 0L0 30" stroke="#fff" stroke-width="6"/><path d="M0 0L30 30M30 0L0 30" stroke="#D8312F" stroke-width="2.5"/><path d="M15 0v30M0 15h30" stroke="#fff" stroke-width="9"/><path d="M15 0v30M0 15h30" stroke="#D8312F" stroke-width="5"/></svg>'}
 function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;")}
-function head(){return '<header><h1 onclick="go(\'home\')">Sebugi Calcio'+(BETA?' <span style="font-size:10px;font-weight:700;background:#fff;color:#2E8B3E;border-radius:999px;padding:2px 7px;vertical-align:2px">BETA</span>':'')+'</h1><div class="flags">'+["it","en","de"].map(function(l){return '<button class="flag'+(l===lang?" on":"")+'" aria-label="'+l+'" onclick="setLang(\''+l+'\')">'+flagSvg(l)+'</button>'}).join("")+'</div></header><div class="stripe"></div>'}
-function foot(){return '<footer>'+t("disc")+'<br>'+t("saved")+' '+t("contact")+'</footer>'}
+function head(){return '<header><h1 onclick="go(\'home\')">Sebugi Calcio'+(BETA?' <span style="font-size:12px;font-weight:700;background:#F2B705;color:#3D2C00;border-radius:999px;padding:2px 9px;vertical-align:2px;margin-left:4px">BETA</span>':'')+'</h1><div class="flags">'+["it","en","de"].map(function(l){return '<button class="flag'+(l===lang?" on":"")+'" aria-label="'+l+'" onclick="setLang(\''+l+'\')">'+flagSvg(l)+'</button>'}).join("")+'</div></header><div class="stripe"></div>'}
+function foot(){if(st.screen==="home")return '<footer style="padding-top:4px">'+t("saved")+' '+t("contact")+'</footer>';return '<footer>'+t("disc")+'<br>'+t("saved")+' '+t("contact")+'</footer>'}
 function opts(list,cur,all){return '<option value="">'+all+'</option>'+list.map(function(v){return '<option value="'+esc(v[0])+'"'+(v[0]===cur?" selected":"")+'>'+esc(v[1])+'</option>'}).join("")}
 function render(){
 var h=head(),b="";
@@ -44,13 +44,13 @@ var comps=uniq(M.map(function(m){return m.competizione})).map(function(c){return
 var teams=uniq([].concat.apply([],base.map(function(m){return[nm(m.casa),nm(m.ospite)]}))).sort().map(function(x){return[x,x]});
 var b2=base.filter(function(m){return!st.ft||nm(m.casa)===st.ft||nm(m.ospite)===st.ft});
 var seas=uniq(b2.map(function(m){return m.stagione})).sort().map(function(x){return[x,x]});
-return '<div class="card"><div class="in"><img src="logo-app.png?v=2" alt="Sebugi" style="height:60px;width:auto;display:block;margin-bottom:8px"><div class="tag">Sebugi Calcio</div><p>'+t("sub")+'</p></div>'+art("serie-a")+'</div>'+
+return '<div class="card" style="min-height:0"><div class="in"><img src="logo-app.png?v=3" alt="Sebugi" style="height:48px;width:auto;display:block;margin-bottom:6px"><div class="tag">Sebugi Calcio'+(BETA?' · '+t("beta"):'')+'</div><p>'+t("sub")+'</p></div>'+art("serie-a")+'</div>'+
 '<label>'+t("comp")+'</label><select onchange="setF(\'fc\',this.value)">'+opts(comps,st.fc,t("all"))+'</select>'+
 '<label>'+t("team")+'</label><select onchange="setF(\'ft\',this.value)">'+opts(teams,st.ft,t("allt"))+'</select>'+
 '<label>'+t("season")+'</label><select onchange="setF(\'fs\',this.value)">'+opts(seas,st.fs,t("allm"))+'</select>'+
 '<label>'+t("mode")+'</label>'+
 '<button class="btn pri" onclick="start(\'a\')">'+t("ma")+'</button><button class="btn pri" onclick="start(\'b\')">'+t("mb")+'</button>'+
-'<button class="btn c" onclick="go(\'review\')">'+t("review")+'</button>'}
+'<button class="btn c" onclick="go(\'review\')">'+t("review")+'</button><p class="small" style="text-align:center;margin:0">'+t("disc")+'</p>'}
 function setF(k,v){st[k]=v;if(k==="fc"){st.ft="";st.fs=""}if(k==="ft")st.fs="";render()}
 function setLang(l){lang=l;st.ft="";lsSet("sebugi-calcio-lang",l);render()}
 function go(s){st.screen=s;st.confirm=false;render()}
