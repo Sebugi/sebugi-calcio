@@ -1,0 +1,646 @@
+{
+ "versione": 1,
+ "nota": "Solo fatti. Minuto null = discordante tra le fonti, non mostrare. Allenatori null = non verificati. 'indizio' = testo senza squadre e risultato, per il modo indovina la partita.",
+ "partite": [
+  {
+   "id": "mondiali-2006-ita-fra",
+   "competizione": "mondiali",
+   "fase": "finale",
+   "stagione": "2006",
+   "data": "2006-07-09",
+   "stadio": "Olympiastadion",
+   "citta": "Berlino",
+   "campo_neutro": true,
+   "casa": {
+    "it": "Italia",
+    "en": "Italy",
+    "de": "Italien"
+   },
+   "ospite": {
+    "it": "Francia",
+    "en": "France",
+    "de": "Frankreich"
+   },
+   "risultato": "1-1",
+   "dopo_supplementari": true,
+   "rigori": "5-3",
+   "marcatori": [
+    {
+     "squadra": "FRA",
+     "giocatore": "Zidane",
+     "minuto": 7,
+     "tipo": "rigore"
+    },
+    {
+     "squadra": "ITA",
+     "giocatore": "Materazzi",
+     "minuto": null,
+     "nota_minuto": "18' o 19' secondo le fonti"
+    }
+   ],
+   "allenatori": {
+    "ITA": "Marcello Lippi",
+    "FRA": "Raymond Domenech"
+   },
+   "livello": 1,
+   "titolo": {
+    "it": "Italia-Francia, finale Mondiali 2006",
+    "en": "Italy-France, 2006 World Cup final",
+    "de": "Italien-Frankreich, WM-Finale 2006"
+   },
+   "testo": {
+    "it": "Finale dei Mondiali 2006, giocata il 9 luglio a Berlino. Zidane porta in vantaggio la Francia su rigore al 7' e Materazzi pareggia poco dopo. Dopo i tempi supplementari il risultato resta 1-1 e l'Italia vince 5-3 ai rigori: sbaglia solo Trezeguet. Allenatori: Lippi e Domenech.",
+    "en": "2006 World Cup final, played on 9 July in Berlin. Zidane puts France ahead from the penalty spot in the 7th minute and Materazzi equalises shortly after. The score stays 1-1 after extra time and Italy win 5-3 on penalties: only Trezeguet misses. Managers: Lippi and Domenech.",
+    "de": "WM-Finale 2006, gespielt am 9. Juli in Berlin. Zidane bringt Frankreich in der 7. Minute per Elfmeter in Führung, kurz darauf gleicht Materazzi aus. Nach der Verlängerung steht es 1:1, Italien gewinnt das Elfmeterschießen mit 5:3: Nur Trezeguet verschießt. Trainer: Lippi und Domenech."
+   },
+   "fonti": [
+    "https://en.wikipedia.org/wiki/2006_FIFA_World_Cup_final",
+    "http://news.bbc.co.uk/sport2/hi/football/world_cup_2006/5148796.stm",
+    "https://www.espn.co.uk/football/match/_/gameId/191983/france-italy"
+   ],
+   "da_verificare": [
+    "Minuto di Materazzi: 18' o 19'"
+   ],
+   "indizio": {
+    "it": "Finale dei Mondiali, 9 luglio 2006, Olympiastadion di Berlino. Un rigore di Zidane apre le marcature al 7' e Materazzi pareggia poco dopo. Nessun gol nei supplementari: decide la lotteria dei rigori, con l'errore di Trezeguet. Allenatori: Lippi e Domenech.",
+    "en": "World Cup final, 9 July 2006, Olympiastadion, Berlin. A Zidane penalty opens the scoring in the 7th minute and Materazzi equalises shortly after. No goals in extra time: the penalty shoot-out decides it, with Trezeguet's miss. Managers: Lippi and Domenech.",
+    "de": "WM-Finale, 9. Juli 2006, Olympiastadion Berlin. Ein Elfmeter von Zidane eröffnet das Spiel in der 7. Minute, kurz darauf gleicht Materazzi aus. In der Verlängerung fällt kein Tor: Das Elfmeterschießen entscheidet, Trezeguet verschießt. Trainer: Lippi und Domenech."
+   }
+  },
+  {
+   "id": "mondiali-1970-ita-ger",
+   "competizione": "mondiali",
+   "fase": "semifinale",
+   "stagione": "1970",
+   "data": "1970-06-17",
+   "stadio": "Estadio Azteca",
+   "citta": "Città del Messico",
+   "campo_neutro": true,
+   "casa": {
+    "it": "Italia",
+    "en": "Italy",
+    "de": "Italien"
+   },
+   "ospite": {
+    "it": "Germania Ovest",
+    "en": "West Germany",
+    "de": "Westdeutschland"
+   },
+   "risultato": "4-3",
+   "dopo_supplementari": true,
+   "rigori": null,
+   "marcatori": [
+    {
+     "squadra": "ITA",
+     "giocatore": "Boninsegna",
+     "minuto": 8
+    },
+    {
+     "squadra": "GER",
+     "giocatore": "Schnellinger",
+     "minuto": null,
+     "nota_minuto": "90', 90+2' o 92' secondo le fonti"
+    },
+    {
+     "squadra": "GER",
+     "giocatore": "Müller",
+     "minuto": null,
+     "nota_minuto": "94' o 95' secondo le fonti"
+    },
+    {
+     "squadra": "ITA",
+     "giocatore": "Burgnich",
+     "minuto": 98
+    },
+    {
+     "squadra": "ITA",
+     "giocatore": "Riva",
+     "minuto": 104
+    },
+    {
+     "squadra": "GER",
+     "giocatore": "Müller",
+     "minuto": 110
+    },
+    {
+     "squadra": "ITA",
+     "giocatore": "Rivera",
+     "minuto": 111
+    }
+   ],
+   "allenatori": {
+    "ITA": "Ferruccio Valcareggi",
+    "GER": "Helmut Schön"
+   },
+   "livello": 1,
+   "titolo": {
+    "it": "Italia-Germania Ovest 4-3, semifinale Mondiali 1970",
+    "en": "Italy-West Germany 4-3, 1970 World Cup semi-final",
+    "de": "Italien-Westdeutschland 4:3, WM-Halbfinale 1970"
+   },
+   "testo": {
+    "it": "Semifinale dei Mondiali 1970, 17 giugno a Città del Messico. Boninsegna porta avanti l'Italia all'8' e Schnellinger pareggia a fine tempo regolamentare. Nei supplementari segnano Müller, Burgnich, Riva, ancora Müller e Rivera al 111': finisce 4-3, con cinque gol su sette nei supplementari. Allenatori: Valcareggi e Schön.",
+    "en": "1970 World Cup semi-final, 17 June in Mexico City. Boninsegna puts Italy ahead in the 8th minute and Schnellinger equalises at the end of normal time. In extra time Müller, Burgnich, Riva, Müller again and Rivera in the 111th minute score: it ends 4-3, with five of the seven goals in extra time. Managers: Valcareggi and Schön.",
+    "de": "WM-Halbfinale 1970, 17. Juni in Mexiko-Stadt. Boninsegna bringt Italien in der 8. Minute in Führung, Schnellinger gleicht am Ende der regulären Spielzeit aus. In der Verlängerung treffen Müller, Burgnich, Riva, noch einmal Müller und Rivera in der 111. Minute: Es endet 4:3, fünf der sieben Tore fallen in der Verlängerung. Trainer: Valcareggi und Schön."
+   },
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Italy_v_West_Germany_(1970_FIFA_World_Cup)",
+    "https://eu-football.info/_match.php?id=11595"
+   ],
+   "da_verificare": [
+    "Minuto di Schnellinger e del primo gol di Müller: fonti discordanti"
+   ],
+   "indizio": {
+    "it": "Semifinale dei Mondiali, 17 giugno 1970, Estadio Azteca di Città del Messico. Boninsegna segna all'8', Schnellinger pareggia a fine tempo regolamentare. Poi cinque gol nei supplementari: Müller, Burgnich, Riva, ancora Müller e Rivera all'111'. Allenatori: Valcareggi e Schön.",
+    "en": "World Cup semi-final, 17 June 1970, Estadio Azteca, Mexico City. Boninsegna scores in the 8th minute, Schnellinger equalises at the end of normal time. Then five goals in extra time: Müller, Burgnich, Riva, Müller again and Rivera in the 111th minute. Managers: Valcareggi and Schön.",
+    "de": "WM-Halbfinale, 17. Juni 1970, Estadio Azteca, Mexiko-Stadt. Boninsegna trifft in der 8. Minute, Schnellinger gleicht am Ende der regulären Spielzeit aus. Dann fünf Tore in der Verlängerung: Müller, Burgnich, Riva, noch einmal Müller und Rivera in der 111. Minute. Trainer: Valcareggi und Schön."
+   }
+  },
+  {
+   "id": "mondiali-1982-ita-bra",
+   "competizione": "mondiali",
+   "fase": "seconda fase, gruppo C",
+   "stagione": "1982",
+   "data": "1982-07-05",
+   "stadio": "Estadio Sarrià",
+   "citta": "Barcellona",
+   "campo_neutro": true,
+   "casa": {
+    "it": "Italia",
+    "en": "Italy",
+    "de": "Italien"
+   },
+   "ospite": {
+    "it": "Brasile",
+    "en": "Brazil",
+    "de": "Brasilien"
+   },
+   "risultato": "3-2",
+   "dopo_supplementari": false,
+   "rigori": null,
+   "marcatori": [
+    {
+     "squadra": "ITA",
+     "giocatore": "Rossi",
+     "minuto": null,
+     "nota_minuto": "minuti discordanti tra le fonti"
+    },
+    {
+     "squadra": "BRA",
+     "giocatore": "Sócrates",
+     "minuto": null
+    },
+    {
+     "squadra": "ITA",
+     "giocatore": "Rossi",
+     "minuto": null
+    },
+    {
+     "squadra": "BRA",
+     "giocatore": "Falcão",
+     "minuto": null
+    },
+    {
+     "squadra": "ITA",
+     "giocatore": "Rossi",
+     "minuto": null
+    }
+   ],
+   "allenatori": {
+    "ITA": "Enzo Bearzot",
+    "BRA": "Telê Santana"
+   },
+   "livello": 1,
+   "titolo": {
+    "it": "Italia-Brasile 3-2, Mondiali 1982",
+    "en": "Italy-Brazil 3-2, 1982 World Cup",
+    "de": "Italien-Brasilien 3:2, WM 1982"
+   },
+   "testo": {
+    "it": "Seconda fase dei Mondiali 1982, gruppo C, 5 luglio a Barcellona. Rossi apre, Sócrates pareggia, Rossi raddoppia, Falcão pareggia ancora e Rossi firma la tripletta decisiva. Finisce 3-2 e l'Italia va in semifinale. Allenatori: Bearzot e Telê Santana.",
+    "en": "1982 World Cup second round, group C, 5 July in Barcelona. Rossi scores first, Sócrates equalises, Rossi makes it 2-1, Falcão equalises again and Rossi completes the decisive hat-trick. It ends 3-2 and Italy go through to the semi-final. Managers: Bearzot and Telê Santana.",
+    "de": "WM 1982, zweite Runde, Gruppe C, 5. Juli in Barcelona. Rossi trifft zuerst, Sócrates gleicht aus, Rossi erhöht, Falcão gleicht erneut aus und Rossi macht seinen entscheidenden Hattrick perfekt. Es endet 3:2, Italien zieht ins Halbfinale ein. Trainer: Bearzot und Telê Santana."
+   },
+   "fonti": [
+    "https://www.fifa.com/it/tournaments/mens/worldcup/articles/italia-brasile-barcellona-spagna-1982",
+    "https://en.wikipedia.org/wiki/Italy_v_Brazil_(1982_FIFA_World_Cup)",
+    "https://www.espn.com/soccer/match/_/gameId/197915/brazil-italy"
+   ],
+   "da_verificare": [
+    "Tutti i minuti dei gol sono discordanti tra le fonti: non mostrarli"
+   ],
+   "indizio": {
+    "it": "Seconda fase dei Mondiali, gruppo C, 5 luglio 1982, Estadio Sarrià di Barcellona. Segnano nell'ordine Rossi, Sócrates, Rossi, Falcão e ancora Rossi. Allenatori: Bearzot e Telê Santana.",
+    "en": "World Cup second round, group C, 5 July 1982, Estadio Sarrià, Barcelona. The goals come in this order: Rossi, Sócrates, Rossi, Falcão and Rossi again. Managers: Bearzot and Telê Santana.",
+    "de": "WM, zweite Runde, Gruppe C, 5. Juli 1982, Estadio Sarrià, Barcelona. Die Tore fallen in dieser Reihenfolge: Rossi, Sócrates, Rossi, Falcão und noch einmal Rossi. Trainer: Bearzot und Telê Santana."
+   }
+  },
+  {
+   "id": "mondiali-2002-kor-ita",
+   "competizione": "mondiali",
+   "fase": "ottavi di finale",
+   "stagione": "2002",
+   "data": "2002-06-18",
+   "stadio": "Daejeon World Cup Stadium",
+   "citta": "Daejeon",
+   "campo_neutro": false,
+   "casa": {
+    "it": "Corea del Sud",
+    "en": "South Korea",
+    "de": "Südkorea"
+   },
+   "ospite": {
+    "it": "Italia",
+    "en": "Italy",
+    "de": "Italien"
+   },
+   "risultato": "2-1",
+   "dopo_supplementari": true,
+   "rigori": null,
+   "marcatori": [
+    {
+     "squadra": "ITA",
+     "giocatore": "Vieri",
+     "minuto": 18
+    },
+    {
+     "squadra": "KOR",
+     "giocatore": "Seol Ki-hyeon",
+     "minuto": 88
+    },
+    {
+     "squadra": "KOR",
+     "giocatore": "Ahn Jung-hwan",
+     "minuto": null,
+     "tipo": "golden goal",
+     "nota_minuto": "116', 117' o 126' secondo le fonti; golden goal"
+    }
+   ],
+   "allenatori": null,
+   "livello": 1,
+   "titolo": {
+    "it": "Corea del Sud-Italia 2-1, ottavi Mondiali 2002",
+    "en": "South Korea-Italy 2-1, 2002 World Cup round of 16",
+    "de": "Südkorea-Italien 2:1, WM-Achtelfinale 2002"
+   },
+   "testo": {
+    "it": "Ottavi di finale dei Mondiali 2002, 18 giugno a Daejeon. Vieri porta avanti l'Italia al 18', Seol Ki-hyeon pareggia all'88'. Nei supplementari Ahn Jung-hwan, che aveva sbagliato un rigore nei tempi regolamentari, segna il golden goal: 2-1 per la Corea del Sud.",
+    "en": "2002 World Cup round of 16, 18 June in Daejeon. Vieri puts Italy ahead in the 18th minute and Seol Ki-hyeon equalises in the 88th. In extra time Ahn Jung-hwan, who had missed a penalty in normal time, scores the golden goal: 2-1 to South Korea.",
+    "de": "WM-Achtelfinale 2002, 18. Juni in Daejeon. Vieri bringt Italien in der 18. Minute in Führung, Seol Ki-hyeon gleicht in der 88. aus. In der Verlängerung erzielt Ahn Jung-hwan, der in der regulären Spielzeit einen Elfmeter verschossen hatte, das Golden Goal: 2:1 für Südkorea."
+   },
+   "fonti": [
+    "https://en.wikipedia.org/wiki/South_Korea_v_Italy_(2002_FIFA_World_Cup)",
+    "https://www.espn.com/soccer/match/_/gameId/48892/italy-south-korea",
+    "http://news.bbc.co.uk/sport3/worldcup2002/hi/matches_wallchart/south_korea_v_italy/default.stm"
+   ],
+   "da_verificare": [
+    "Allenatori non verificati su due fonti",
+    "Minuto del golden goal: fonti discordanti"
+   ],
+   "indizio": {
+    "it": "Ottavi di finale dei Mondiali, 18 giugno 2002, Daejeon. Vieri segna al 18', Seol Ki-hyeon pareggia all'88'. Nei supplementari decide un golden goal di Ahn Jung-hwan, che aveva sbagliato un rigore nei tempi regolamentari.",
+    "en": "World Cup round of 16, 18 June 2002, Daejeon. Vieri scores in the 18th minute, Seol Ki-hyeon equalises in the 88th. In extra time a golden goal by Ahn Jung-hwan decides it; he had missed a penalty in normal time.",
+    "de": "WM-Achtelfinale, 18. Juni 2002, Daejeon. Vieri trifft in der 18. Minute, Seol Ki-hyeon gleicht in der 88. aus. In der Verlängerung entscheidet ein Golden Goal von Ahn Jung-hwan, der in der regulären Spielzeit einen Elfmeter verschossen hatte."
+   }
+  },
+  {
+   "id": "champions-2010-int-bar-andata",
+   "competizione": "champions",
+   "fase": "semifinale, andata",
+   "stagione": "2009-10",
+   "data": "2010-04-20",
+   "stadio": "Stadio Giuseppe Meazza",
+   "citta": "Milano",
+   "campo_neutro": false,
+   "casa": {
+    "it": "Inter",
+    "en": "Inter",
+    "de": "Inter"
+   },
+   "ospite": {
+    "it": "Barcellona",
+    "en": "Barcelona",
+    "de": "Barcelona"
+   },
+   "risultato": "3-1",
+   "dopo_supplementari": false,
+   "rigori": null,
+   "marcatori": [
+    {
+     "squadra": "BAR",
+     "giocatore": "Pedro",
+     "minuto": 19
+    },
+    {
+     "squadra": "INT",
+     "giocatore": "Sneijder",
+     "minuto": 30
+    },
+    {
+     "squadra": "INT",
+     "giocatore": "Maicon",
+     "minuto": 48
+    },
+    {
+     "squadra": "INT",
+     "giocatore": "Milito",
+     "minuto": 61
+    }
+   ],
+   "allenatori": {
+    "INT": "José Mourinho",
+    "BAR": "Pep Guardiola"
+   },
+   "livello": 1,
+   "titolo": {
+    "it": "Inter-Barcellona 3-1, semifinale Champions League 2009-10 (andata)",
+    "en": "Inter-Barcelona 3-1, 2009-10 Champions League semi-final (first leg)",
+    "de": "Inter-Barcelona 3:1, Champions-League-Halbfinale 2009/10 (Hinspiel)"
+   },
+   "testo": {
+    "it": "Andata della semifinale di Champions League 2009-10, 20 aprile a Milano. Pedro porta in vantaggio il Barcellona al 19', poi l'Inter ribalta con Sneijder al 30', Maicon al 48' e Milito al 61': finisce 3-1. Allenatori: Mourinho e Guardiola.",
+    "en": "First leg of the 2009-10 Champions League semi-final, 20 April in Milan. Pedro puts Barcelona ahead in the 19th minute, then Inter turn it around with Sneijder in the 30th, Maicon in the 48th and Milito in the 61st: it ends 3-1. Managers: Mourinho and Guardiola.",
+    "de": "Hinspiel des Champions-League-Halbfinals 2009/10, 20. April in Mailand. Pedro bringt Barcelona in der 19. Minute in Führung, dann dreht Inter das Spiel mit Sneijder (30.), Maicon (48.) und Milito (61.): Es endet 3:1. Trainer: Mourinho und Guardiola."
+   },
+   "fonti": [
+    "https://www.uefa.com/uefachampionsleague/match/2000487--inter-vs-barcelona/lineups/",
+    "http://news.bbc.co.uk/sport2/hi/football/europe/8630297.stm"
+   ],
+   "da_verificare": [],
+   "indizio": {
+    "it": "Semifinale d'andata della Champions League 2009-10, 20 aprile 2010, Stadio Meazza di Milano. Pedro apre al 19', poi segnano Sneijder (30'), Maicon (48') e Milito (61'). Allenatori: Mourinho e Guardiola.",
+    "en": "First leg of the 2009-10 Champions League semi-final, 20 April 2010, San Siro, Milan. Pedro opens the scoring in the 19th minute, then Sneijder (30th), Maicon (48th) and Milito (61st) score. Managers: Mourinho and Guardiola.",
+    "de": "Hinspiel des Champions-League-Halbfinals 2009/10, 20. April 2010, San Siro, Mailand. Pedro eröffnet in der 19. Minute, dann treffen Sneijder (30.), Maicon (48.) und Milito (61.). Trainer: Mourinho und Guardiola."
+   }
+  },
+  {
+   "id": "champions-2010-int-bar-ritorno",
+   "competizione": "champions",
+   "fase": "semifinale, ritorno",
+   "stagione": "2009-10",
+   "data": "2010-04-28",
+   "stadio": "Camp Nou",
+   "citta": "Barcellona",
+   "campo_neutro": false,
+   "casa": {
+    "it": "Barcellona",
+    "en": "Barcelona",
+    "de": "Barcelona"
+   },
+   "ospite": {
+    "it": "Inter",
+    "en": "Inter",
+    "de": "Inter"
+   },
+   "risultato": "1-0",
+   "dopo_supplementari": false,
+   "rigori": null,
+   "marcatori": [
+    {
+     "squadra": "BAR",
+     "giocatore": "Piqué",
+     "minuto": 84
+    }
+   ],
+   "allenatori": {
+    "BAR": "Pep Guardiola",
+    "INT": "José Mourinho"
+   },
+   "livello": 1,
+   "titolo": {
+    "it": "Barcellona-Inter 1-0, semifinale Champions League 2009-10 (ritorno)",
+    "en": "Barcelona-Inter 1-0, 2009-10 Champions League semi-final (second leg)",
+    "de": "Barcelona-Inter 1:0, Champions-League-Halbfinale 2009/10 (Rückspiel)"
+   },
+   "testo": {
+    "it": "Ritorno della semifinale di Champions League 2009-10, 28 aprile al Camp Nou. Piqué segna all'84' e il Barcellona vince 1-0, ma l'Inter passa il turno per 3-2 complessivo e va in finale. Allenatori: Guardiola e Mourinho.",
+    "en": "Second leg of the 2009-10 Champions League semi-final, 28 April at the Camp Nou. Piqué scores in the 84th minute and Barcelona win 1-0, but Inter go through 3-2 on aggregate and reach the final. Managers: Guardiola and Mourinho.",
+    "de": "Rückspiel des Champions-League-Halbfinals 2009/10, 28. April im Camp Nou. Piqué trifft in der 84. Minute und Barcelona gewinnt 1:0, doch Inter kommt mit 3:2 im Gesamtergebnis ins Finale. Trainer: Guardiola und Mourinho."
+   },
+   "fonti": [
+    "https://www.inter.it/it/notizie/2020-04-28-barcellona-inter-1-0-2010-semifinale-champions-league-highlights-foto",
+    "https://www.espn.com.au/football/match/_/gameId/290736/internazionale-barcelona"
+   ],
+   "da_verificare": [
+    "Data: 28 aprile (ESPN indica il 29)"
+   ],
+   "indizio": {
+    "it": "Semifinale di ritorno della Champions League 2009-10, 28 aprile 2010, Camp Nou di Barcellona. Un solo gol, di Piqué all'84'. Allenatori: Guardiola e Mourinho.",
+    "en": "Second leg of the 2009-10 Champions League semi-final, 28 April 2010, Camp Nou, Barcelona. A single goal, by Piqué in the 84th minute. Managers: Guardiola and Mourinho.",
+    "de": "Rückspiel des Champions-League-Halbfinals 2009/10, 28. April 2010, Camp Nou, Barcelona. Ein einziges Tor, von Piqué in der 84. Minute. Trainer: Guardiola und Mourinho."
+   }
+  },
+  {
+   "id": "champions-1996-aja-juv",
+   "competizione": "champions",
+   "fase": "finale",
+   "stagione": "1995-96",
+   "data": "1996-05-22",
+   "stadio": "Stadio Olimpico",
+   "citta": "Roma",
+   "campo_neutro": true,
+   "casa": {
+    "it": "Ajax",
+    "en": "Ajax",
+    "de": "Ajax"
+   },
+   "ospite": {
+    "it": "Juventus",
+    "en": "Juventus",
+    "de": "Juventus"
+   },
+   "risultato": "1-1",
+   "dopo_supplementari": true,
+   "rigori": "2-4",
+   "marcatori": [
+    {
+     "squadra": "JUV",
+     "giocatore": "Ravanelli",
+     "minuto": null,
+     "nota_minuto": "12' o 13' secondo le fonti"
+    },
+    {
+     "squadra": "AJA",
+     "giocatore": "Litmanen",
+     "minuto": 41
+    }
+   ],
+   "allenatori": null,
+   "livello": 1,
+   "titolo": {
+    "it": "Juventus-Ajax, finale Champions League 1995-96",
+    "en": "Juventus-Ajax, 1995-96 Champions League final",
+    "de": "Juventus-Ajax, Champions-League-Finale 1995/96"
+   },
+   "testo": {
+    "it": "Finale di Champions League 1995-96, 22 maggio a Roma. Ravanelli porta in vantaggio la Juventus, Litmanen pareggia al 41'. Dopo i supplementari è ancora 1-1 e la Juventus batte l'Ajax 4-2 ai rigori.",
+    "en": "1995-96 Champions League final, 22 May in Rome. Ravanelli puts Juventus ahead, Litmanen equalises in the 41st minute. After extra time it is still 1-1 and Juventus beat Ajax 4-2 on penalties.",
+    "de": "Champions-League-Finale 1995/96, 22. Mai in Rom. Ravanelli bringt Juventus in Führung, Litmanen gleicht in der 41. Minute aus. Nach der Verlängerung steht es weiter 1:1, Juventus gewinnt das Elfmeterschießen gegen Ajax mit 4:2."
+   },
+   "fonti": [
+    "https://www.uefa.com/uefachampionsleague/match/52534--ajax-vs-juventus/",
+    "https://www.uefa.com/uefachampionsleague/news/01ff-0e7e6ec28d07-2dc589e0556e-1000--1995-96-afc-ajax-1-1-juventus-juve-win-4-2-on-pens-report/",
+    "https://en.wikipedia.org/wiki/1996_UEFA_Champions_League_final"
+   ],
+   "da_verificare": [
+    "Allenatori non verificati",
+    "Ordine dei rigoristi non verificato",
+    "Minuto di Ravanelli: 12' o 13'"
+   ],
+   "indizio": {
+    "it": "Finale di Champions League 1995-96, 22 maggio 1996, Stadio Olimpico di Roma. Ravanelli porta in vantaggio una squadra, Litmanen pareggia al 41'. Nessun gol nei supplementari: decidono i rigori.",
+    "en": "1995-96 Champions League final, 22 May 1996, Stadio Olimpico, Rome. Ravanelli puts one side ahead, Litmanen equalises in the 41st minute. No goals in extra time: penalties decide it.",
+    "de": "Champions-League-Finale 1995/96, 22. Mai 1996, Stadio Olimpico, Rom. Ravanelli bringt eine Mannschaft in Führung, Litmanen gleicht in der 41. Minute aus. In der Verlängerung fällt kein Tor: Das Elfmeterschießen entscheidet."
+   }
+  },
+  {
+   "id": "champions-1994-mil-bar",
+   "competizione": "champions",
+   "fase": "finale",
+   "stagione": "1993-94",
+   "data": "1994-05-18",
+   "stadio": "Stadio Olimpico Spyros Louis",
+   "citta": "Atene",
+   "campo_neutro": true,
+   "casa": {
+    "it": "Milan",
+    "en": "Milan",
+    "de": "Milan"
+   },
+   "ospite": {
+    "it": "Barcellona",
+    "en": "Barcelona",
+    "de": "Barcelona"
+   },
+   "risultato": "4-0",
+   "dopo_supplementari": false,
+   "rigori": null,
+   "marcatori": [
+    {
+     "squadra": "MIL",
+     "giocatore": "Massaro",
+     "minuto": 22
+    },
+    {
+     "squadra": "MIL",
+     "giocatore": "Massaro",
+     "minuto": null,
+     "nota_minuto": "45+2' o 45+3' secondo le fonti"
+    },
+    {
+     "squadra": "MIL",
+     "giocatore": "Savićević",
+     "minuto": 47
+    },
+    {
+     "squadra": "MIL",
+     "giocatore": "Desailly",
+     "minuto": 58
+    }
+   ],
+   "allenatori": null,
+   "livello": 1,
+   "titolo": {
+    "it": "Milan-Barcellona 4-0, finale Champions League 1993-94",
+    "en": "Milan-Barcelona 4-0, 1993-94 Champions League final",
+    "de": "Milan-Barcelona 4:0, Champions-League-Finale 1993/94"
+   },
+   "testo": {
+    "it": "Finale di Champions League 1993-94, 18 maggio ad Atene. Massaro segna due gol nel primo tempo, il primo al 22'. Nella ripresa Savićević al 47' e Desailly al 58' completano il 4-0 del Milan sul Barcellona.",
+    "en": "1993-94 Champions League final, 18 May in Athens. Massaro scores twice in the first half, the first in the 22nd minute. In the second half Savićević in the 47th and Desailly in the 58th complete Milan's 4-0 win over Barcelona.",
+    "de": "Champions-League-Finale 1993/94, 18. Mai in Athen. Massaro trifft in der ersten Halbzeit zweimal, das erste Mal in der 22. Minute. Nach der Pause machen Savićević (47.) und Desailly (58.) den 4:0-Sieg des AC Mailand gegen Barcelona perfekt."
+   },
+   "fonti": [
+    "https://www.uefa.com/uefachampionsleague/match/51078--milan-vs-barcelona/lineups/",
+    "https://en.wikipedia.org/wiki/1994_UEFA_Champions_League_final"
+   ],
+   "da_verificare": [
+    "Allenatori non verificati su due fonti",
+    "Minuto del secondo gol di Massaro: fonti discordanti"
+   ],
+   "indizio": {
+    "it": "Finale di Champions League 1993-94, 18 maggio 1994, Stadio Olimpico di Atene. Segnano Massaro (doppietta, la prima rete al 22'), Savićević al 47' e Desailly al 58'.",
+    "en": "1993-94 Champions League final, 18 May 1994, Olympic Stadium, Athens. The scorers are Massaro (twice, the first in the 22nd minute), Savićević in the 47th and Desailly in the 58th.",
+    "de": "Champions-League-Finale 1993/94, 18. Mai 1994, Olympiastadion, Athen. Die Torschützen sind Massaro (zweimal, das erste in der 22. Minute), Savićević in der 47. und Desailly in der 58. Minute."
+   }
+  },
+  {
+   "id": "seriea-1986-rom-lec",
+   "competizione": "serie-a",
+   "fase": "29ª giornata",
+   "stagione": "1985-86",
+   "data": "1986-04-20",
+   "stadio": "Stadio Olimpico",
+   "citta": "Roma",
+   "campo_neutro": false,
+   "casa": {
+    "it": "Roma",
+    "en": "Roma",
+    "de": "Roma"
+   },
+   "ospite": {
+    "it": "Lecce",
+    "en": "Lecce",
+    "de": "Lecce"
+   },
+   "risultato": "2-3",
+   "dopo_supplementari": false,
+   "rigori": null,
+   "marcatori": [
+    {
+     "squadra": "ROM",
+     "giocatore": "Graziani",
+     "minuto": 7
+    },
+    {
+     "squadra": "LEC",
+     "giocatore": "Di Chiara",
+     "minuto": 34
+    },
+    {
+     "squadra": "LEC",
+     "giocatore": "Barbas",
+     "minuto": 42,
+     "tipo": "rigore"
+    },
+    {
+     "squadra": "LEC",
+     "giocatore": "Barbas",
+     "minuto": 53
+    },
+    {
+     "squadra": "ROM",
+     "giocatore": "Pruzzo",
+     "minuto": 82
+    }
+   ],
+   "allenatori": {
+    "ROM": "Sven-Göran Eriksson",
+    "LEC": "Eugenio Fascetti"
+   },
+   "livello": 1,
+   "titolo": {
+    "it": "Roma-Lecce 2-3, Serie A 1985-86",
+    "en": "Roma-Lecce 2-3, 1985-86 Serie A",
+    "de": "Roma-Lecce 2:3, Serie A 1985/86"
+   },
+   "testo": {
+    "it": "Serie A 1985-86, 29ª giornata, 20 aprile all'Olimpico. Graziani porta avanti la Roma al 7', poi il Lecce ribalta con Di Chiara al 34' e due gol di Barbas, il primo su rigore al 42'. Pruzzo accorcia all'82', ma finisce 2-3 per i salentini, già retrocessi: una sconfitta che pesò nella corsa allo scudetto. Allenatori: Eriksson e Fascetti.",
+    "en": "1985-86 Serie A, matchday 29, 20 April at the Olimpico. Graziani puts Roma ahead in the 7th minute, then Lecce turn it around with Di Chiara in the 34th and two goals from Barbas, the first a penalty in the 42nd. Pruzzo pulls one back in the 82nd, but it ends 2-3 to already-relegated Lecce: a defeat that weighed heavily in the title race. Managers: Eriksson and Fascetti.",
+    "de": "Serie A 1985/86, 29. Spieltag, 20. April im Olimpico. Graziani bringt Roma in der 7. Minute in Führung, dann dreht Lecce das Spiel mit Di Chiara (34.) und zwei Toren von Barbas, das erste per Elfmeter in der 42. Minute. Pruzzo verkürzt in der 82. Minute, doch es endet 2:3 für den bereits abgestiegenen Verein aus Lecce: eine Niederlage, die im Titelrennen schwer wog. Trainer: Eriksson und Fascetti."
+   },
+   "fonti": [
+    "https://en.wikipedia.org/wiki/1985%E2%80%9386_US_Lecce_season",
+    "https://www.calciolecce.it/2026/03/22/roma-lecce-40-anni-fa-il-2-3-che-costo-lo-scudetto/"
+   ],
+   "da_verificare": [
+    "Squadra di ogni marcatore dedotta dal risultato: da confermare"
+   ],
+   "indizio": {
+    "it": "Serie A 1985-86, 29ª giornata, 20 aprile 1986, Stadio Olimpico di Roma. Segnano Graziani al 7', Di Chiara al 34', Barbas su rigore al 42' e ancora al 53', Pruzzo all'82'. Allenatori: Eriksson e Fascetti.",
+    "en": "1985-86 Serie A, matchday 29, 20 April 1986, Stadio Olimpico, Rome. The scorers are Graziani in the 7th minute, Di Chiara in the 34th, Barbas from the penalty spot in the 42nd and again in the 53rd, Pruzzo in the 82nd. Managers: Eriksson and Fascetti.",
+    "de": "Serie A 1985/86, 29. Spieltag, 20. April 1986, Stadio Olimpico, Rom. Die Torschützen sind Graziani in der 7. Minute, Di Chiara in der 34., Barbas per Elfmeter in der 42. und noch einmal in der 53., Pruzzo in der 82. Minute. Trainer: Eriksson und Fascetti."
+   }
+  }
+ ]
+}
