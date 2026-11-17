@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#2E8B3E">
+<title>Quiz sulle partite storiche del calcio italiano | Sebugi Calcio</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="apple-touch-icon" href="../favicon-192.png">
+<meta name="description" content="Cinque partite storiche, due risposte ciascuna. Riconosci la partita dal racconto? Gratis, in due minuti.">
+<link rel="canonical" href="https://calcio.sebugi.com/landing/partite-storiche.html">
+<meta name="robots" content="noindex">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#F1F8EC;color:#14361C;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5}
+.stripe{height:5px;background:linear-gradient(90deg,#1fa04a 33.3%,#fff 33.3% 66.6%,#D8312F 66.6%)}
+.wrap{max-width:560px;margin:0 auto;padding:18px 18px 40px}
+h1{font-size:1.6rem;line-height:1.2;margin:.2em 0 .3em;text-align:center}
+.sotto{text-align:center;color:#3d5a43;margin:0 0 20px}
+.card{background:#fff;border:1px solid #cfe3c8;border-radius:12px;padding:20px;box-shadow:0 2px 8px rgba(20,54,28,.08)}
+.num{font-size:.85rem;color:#4b6b52;margin:0 0 8px}
+.testo{font-size:1.05rem;margin:0 0 16px}
+.opz{display:block;width:100%;text-align:left;margin:8px 0;padding:13px 14px;font:inherit;font-size:1rem;background:#fff;border:1px solid #a9c9a1;border-radius:8px;color:inherit;cursor:pointer}
+.opz:hover:not(:disabled){background:#eaf5e5}
+.opz.ok{background:#d6efcf;border-color:#2E8B3E}
+.opz.no{background:#f9d9d7;border-color:#D8312F}
+.esito{margin:14px 0 4px;font-weight:bold}
+.orig{font-size:.92rem;color:#3d5a43;margin:0 0 12px}.orig:empty{display:none}
+.avanti,.cta{display:block;width:100%;padding:14px;margin-top:12px;font:inherit;font-weight:bold;font-size:1.05rem;text-align:center;text-decoration:none;color:#fff;background:#2E8B3E;border:0;border-radius:8px;cursor:pointer}
+.punti{font-size:1.5rem;text-align:center;margin:0 0 6px}
+.piede{text-align:center;font-size:.8rem;color:#4b6b52;margin-top:26px}
+.piede a{color:#4b6b52}
+[hidden]{display:none!important}
+.intro{text-align:center}
+.intro h2{font-size:1.15rem;margin:0 0 8px}
+.intro p{margin:0 0 10px}
+.intro ul{list-style:none;padding:0;margin:0 0 14px;color:#3d5a43;font-size:.95rem}
+.start{display:block;width:100%;padding:20px 14px;margin-top:6px;font:inherit;font-weight:bold;font-size:1.5rem;color:#fff;background:#2E8B3E;border:0;border-radius:12px;cursor:pointer;box-shadow:0 3px 0 #1f6a2c}
+.start:active{transform:translateY(2px);box-shadow:0 1px 0 #1f6a2c}
+</style>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="86c03d25-c58e-427d-a332-2fb69da70300" data-domains="calcio.sebugi.com"></script>
+</head>
+<body>
+<div class="stripe"></div>
+<div class="wrap">
+<img src="../logo.png" alt="Sebugi" width="150" style="display:block;margin:0 auto 6px;max-width:50%;height:auto">
+<h1>Ti ricordi queste partite?</h1>
+<p class="sotto">Cinque partite storiche del calcio italiano: leggi il racconto e indovina quale è.</p>
+
+<div class="card intro" id="intro">
+<h2>Come funziona</h2>
+<p>Un gioco gratuito di due minuti. Per ogni partita leggi pochi fatti, senza i nomi delle squadre, e scegli tra due risposte. Scopri subito se hai indovinato.</p>
+<ul><li>Gratis e senza registrazione</li><li>Dura circa due minuti</li><li>Alla fine vedi il tuo punteggio</li></ul>
+<button class="start" id="start" type="button" data-umami-event="calcio-inizio-test">Fai il test</button>
+</div>
+
+<div class="card" id="quiz" hidden>
+<p class="num">Partita <span id="n">1</span> di 5</p>
+<p class="testo" id="testo"></p>
+<div id="opzioni"></div>
+<div id="dopo" hidden>
+<p class="esito" id="esito"></p>
+<p class="orig" id="orig"></p>
+<button class="avanti" id="avanti" type="button">Avanti</button>
+</div>
+</div>
+
+<div class="card" id="fine" hidden>
+<p class="punti" id="punti"></p>
+<p id="commento" style="text-align:center"></p>
+<p style="text-align:center">Nell'app trovi altre partite storiche del calcio italiano, con i marcatori e i fatti essenziali di ognuna. È gratuita e senza registrazione.</p>
+<a class="cta" href="https://calcio.sebugi.com/" id="cta" data-umami-event="calcio-entra-app">Entra nell'app e continua a giocare</a>
+<button class="avanti" id="ripeti" type="button" style="background:#fff;color:#14361C;border:1px solid #a9c9a1">Rifai il quiz</button>
+</div>
+
+<p class="piede"><a href="../privacy.html">Privacy</a> · <a href="../termini.html">Condizioni d'uso</a> · <a href="../avviso.html">Non affiliazione</a></p>
+</div>
+<script>
+var Q=[
+{t:"Finale dei Mondiali, 9 luglio 2006, Olympiastadion di Berlino. Un rigore di Zidane apre le marcature al 7' e Materazzi pareggia poco dopo. Nessun gol nei supplementari: decide la lotteria dei rigori, con l'errore di Trezeguet.",
+ g:"Italia-Francia, finale Mondiali 2006",s:"Juventus-Ajax, finale Champions League 1996",r:"Italia-Francia 1-1, finale dei Mondiali 2006: l'Italia vince 5-3 ai rigori."},
+{t:"Semifinale dei Mondiali, 17 giugno 1970, Estadio Azteca di Città del Messico. Boninsegna segna all'8', Schnellinger pareggia a fine tempo regolamentare. Poi cinque gol nei supplementari.",
+ g:"Italia-Germania Ovest, semifinale Mondiali 1970",s:"Corea del Sud-Italia, ottavi Mondiali 2002",r:"Italia-Germania Ovest 4-3, semifinale dei Mondiali 1970."},
+{t:"Finale di Champions League 1993-94, 18 maggio 1994, Stadio Olimpico di Atene. Segnano Massaro (doppietta, la prima rete al 22'), Savićević al 47' e Desailly al 58'.",
+ g:"Milan-Barcellona, finale Champions League 1994",s:"Inter-Barcellona, semifinale Champions League 2010",r:"Milan-Barcellona 4-0, finale della Champions League 1993-94."},
+{t:"Seconda fase dei Mondiali, gruppo C, 5 luglio 1982, Estadio Sarrià di Barcellona. Segnano nell'ordine Rossi, Sócrates, Rossi, Falcão e ancora Rossi.",
+ g:"Italia-Brasile, Mondiali 1982",s:"Roma-Lecce, Serie A 1986",r:"Italia-Brasile 3-2, seconda fase dei Mondiali 1982."},
+{t:"Ottavi di finale dei Mondiali, 18 giugno 2002, Daejeon. Vieri segna al 18', Seol Ki-hyeon pareggia all'88'. Nei supplementari decide un golden goal di Ahn Jung-hwan, che aveva sbagliato un rigore nei tempi regolamentari.",
+ g:"Corea del Sud-Italia, ottavi Mondiali 2002",s:"Italia-Francia, finale Mondiali 2006",r:"Corea del Sud-Italia 2-1, ottavi di finale dei Mondiali 2002."}
+];
+var i=0,pt=0;
+function $(x){return document.getElementById(x)}
+function mostra(){
+ var q=Q[i];$("n").textContent=i+1;$("testo").textContent=q.t;$("dopo").hidden=true;
+ var o=[{x:q.g,ok:true},{x:q.s,ok:false}];if(Math.random()<.5)o.reverse();
+ var c=$("opzioni");c.innerHTML="";
+ o.forEach(function(e){var b=document.createElement("button");b.type="button";b.className="opz";b.textContent=e.x;
+  b.onclick=function(){risp(b,e.ok)};c.appendChild(b)});
+}
+function risp(b,ok){
+ var bs=document.querySelectorAll(".opz");
+ bs.forEach(function(x){x.disabled=true});
+ b.classList.add(ok?"ok":"no");
+ if(!ok){bs.forEach(function(x){if(x.textContent===Q[i].g)x.classList.add("ok")})}
+ if(ok)pt++;
+ $("esito").textContent=ok?"Giusto!":"Non è questa.";
+ $("orig").textContent=Q[i].r;
+ $("avanti").textContent=i<Q.length-1?"Avanti":"Vedi il punteggio";
+ $("dopo").hidden=false;
+}
+$("start").onclick=function(){$("intro").hidden=true;$("quiz").hidden=false;i=0;pt=0;mostra()};
+$("avanti").onclick=function(){
+ if(i<Q.length-1){i++;mostra();return}
+ $("quiz").hidden=true;$("fine").hidden=false;
+ $("punti").textContent="Hai indovinato "+pt+" su "+Q.length;
+ $("commento").textContent=pt===5?"Memoria da campione.":pt>=3?"Bel risultato.":"Ci sono ancora molte partite da scoprire.";
+ try{if(window.umami)umami.track("calcio-fine-test",{punti:pt})}catch(e){}
+};
+$("ripeti").onclick=function(){$("fine").hidden=true;$("quiz").hidden=false;i=0;pt=0;mostra()};
+</script>
+</body>
+</html>
